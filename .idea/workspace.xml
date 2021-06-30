@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="" />
+    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Rename system.properties">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/MessageResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/enums/PhoneType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/PersonapiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/personapi/PersonapiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/personapi/PersonapiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/personapi/PersonapiApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +28,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uSJNO9Ei12smdOv2xqYqm7t2u4" />
   <component name="ProjectViewState">
@@ -29,6 +49,13 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.personapi" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Person API" type="Application" factoryName="Application">
@@ -110,6 +137,30 @@
       <option name="presentableId" value="Default" />
       <updated>1624653024441</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rename system.properties">
+      <created>1624656119055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624656119055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rename system.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename system.properties" />
   </component>
 </project>
