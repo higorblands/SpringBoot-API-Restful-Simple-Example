@@ -3,6 +3,7 @@ package com.github.personapi.service;
 import com.github.personapi.dto.request.PersonDTO;
 import com.github.personapi.dto.response.MessageResponseDTO;
 import com.github.personapi.entity.Person;
+import com.github.personapi.exception.PersonNotFoundException;
 import com.github.personapi.mapper.PersonMapper;
 import com.github.personapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ public class PersonService {
 
 
     private final PersonRepository personRepository;
-    private  final PersonMapper personMapper = PersonMapper.INSTANCE;
+    private final PersonMapper personMapper = PersonMapper.INSTANCE;
 
 
     @Autowired
@@ -39,5 +40,12 @@ public class PersonService {
         return allPeople.stream()
                 .map(personMapper::toDTO)
                 .collect(Collectors.toList());
+    }
+
+    public PersonDTO findById(Long id) throws PersonNotFoundException {
+
+        Person person = personRepository.findById(id)
+                .orElseThrow(() -> new PersonNotFoundException(id));
+        return personMapper.toDTO(person);
     }
 }

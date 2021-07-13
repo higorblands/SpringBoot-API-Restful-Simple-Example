@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Developed person create operation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/request/PersonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/request/PhoneDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/mapper/PersonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Developed : person create method and list all method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/exception/PersonNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/personapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/PersonApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/PersonApiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/MessageResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/response/MessageResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/repository/PersonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/PersonapiApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.personapi.exception" />
       <recent name="com.github.personapi.mapper" />
       <recent name="com.github.personapi.controller" />
       <recent name="com.github.personapi.dto.request" />
@@ -170,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625011211051</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Developed : person create method and list all method">
+      <created>1626207214054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626207214056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +183,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rename system.properties" />
     <MESSAGE value="Developed person create operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Developed person create operation" />
+    <MESSAGE value="Developed : person create method and list all method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Developed : person create method and list all method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
