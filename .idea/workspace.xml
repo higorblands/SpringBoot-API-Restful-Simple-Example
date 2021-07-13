@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Edit pom.xml">
+    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Developed delete by Id operation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" afterDir="false" />
@@ -26,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -178,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626209399235</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Developed delete by Id operation.">
+      <created>1626213158075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626213158075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +211,8 @@
     <MESSAGE value="Developed : person create method and list all method" />
     <MESSAGE value="Developed person get by ID" />
     <MESSAGE value="Edit pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit pom.xml" />
+    <MESSAGE value="Developed delete by Id operation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Developed delete by Id operation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
