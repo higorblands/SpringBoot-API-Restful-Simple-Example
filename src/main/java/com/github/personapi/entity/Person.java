@@ -29,7 +29,6 @@ public class Person {
     @Column(nullable = false, unique = true)
     private String cpf;
 
-
     private LocalDate birthDate;
 
 

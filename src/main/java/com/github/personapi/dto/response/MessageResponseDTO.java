@@ -1,4 +1,4 @@
-package com.github.personapi.dto;
+package com.github.personapi.dto.response;
 
 import lombok.Builder;
 import lombok.Data;

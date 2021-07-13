@@ -4,21 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Rename system.properties">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/MessageResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/enums/PhoneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" afterDir="false" />
+    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Developed person create operation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/request/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/request/PhoneDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/mapper/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/personapi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/PersonApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/PersonApiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/PersonapiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/personapi/PersonapiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/MessageResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/dto/response/MessageResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/PersonapiApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/personapi/PersonapiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/personapi/PersonapiApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -36,6 +41,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1uSJNO9Ei12smdOv2xqYqm7t2u4" />
   <component name="ProjectViewState">
@@ -50,15 +64,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.personapi.mapper" />
+      <recent name="com.github.personapi.controller" />
+      <recent name="com.github.personapi.dto.request" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.github.personapi" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Person API" type="Application" factoryName="Application">
+    <configuration name="personapi" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (2)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.github.personapi.PersonApiApplication" />
@@ -144,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624656119055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Developed person create operation">
+      <created>1625011211051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625011211051</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +187,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rename system.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename system.properties" />
+    <MESSAGE value="Developed person create operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Developed person create operation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
