@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Pull">
+    <list default="true" id="dccfe76c-f8d0-487a-8fe7-fa331dca989f" name="Default Changelist" comment="Update README.md">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/personapi/service/PersonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/personapi/utils/PersonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/personapi/utils/PhoneUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/personapi/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/personapi/controller/PersonController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +64,28 @@
       <recent name="com.github.personapi" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonServiceTest.testGivenPersonDTOThenReturnSavedMessage">
     <configuration name="personapi" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (2)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.github.personapi.PersonApiApplication" />
       <module name="personapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceTest.testGivenPersonDTOThenReturnSavedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.personapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.personapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.github.personapi.service.PersonServiceTest" />
+      <option name="METHOD_NAME" value="testGivenPersonDTOThenReturnSavedMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +150,11 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonServiceTest.testGivenPersonDTOThenReturnSavedMessage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -185,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626215498017</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update README.md">
+      <created>1626226180237</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626226180237</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +236,8 @@
     <MESSAGE value="Developed person get by ID" />
     <MESSAGE value="Edit pom.xml" />
     <MESSAGE value="Pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pull" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
