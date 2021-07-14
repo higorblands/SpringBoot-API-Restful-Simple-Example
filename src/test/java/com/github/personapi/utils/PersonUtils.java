@@ -23,7 +23,6 @@ public class PersonUtils {
                 .lastName(LAST_NAME)
                 .cpf(CPF_NUMBER)
                 .birthDate(LocalDate.from(LocalTime.now()))
-                .phones(Collections.singletonList(PhoneUtils.createFakeDTO()))
                 .build();
     }
 
